@@ -1,7 +1,5 @@
 # Marlene Fuller
-#CSD 310
-#Module 8
-#Assignment  Module 8.3
+#CSD310-352A Database Development and Use (2221-DD)
 # Queries for pysports
 
 import mysql.connector
