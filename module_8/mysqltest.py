@@ -53,10 +53,3 @@ except mysql.connector.Error as err:
     
 finally:
     db.close()
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHu
