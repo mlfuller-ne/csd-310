@@ -39,6 +39,7 @@ try:
         print(" Player ID: {}\n First Name: {}\n Last Name: {}\n Team ID: {}\n".format(player[0], player[1], player[2], player[3]))   
 
     input("\n\n Press any key to continue... ")
+    db.close()
 
 
 except mysql.connector.Error as err:
@@ -52,4 +53,4 @@ except mysql.connector.Error as err:
         print(err)
     
 finally:
-#    db.close()
+    db.close()
